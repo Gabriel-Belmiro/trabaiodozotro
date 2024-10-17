@@ -192,3 +192,56 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+/* Estilização do formulário de opinião */
+form {
+    max-width: 600px; /* Limita a largura do formulário */
+    margin: 20px auto; /* Centraliza o formulário horizontalmente */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fundo claro para destacar o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+form label {
+    font-size: 1.1em; /* Tamanho maior do texto dos rótulos */
+    color: #333; /* Cor do texto */
+    display: block; /* Garante que os rótulos fiquem acima dos inputs */
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%; /* Campos ocupam toda a largura do formulário */
+    padding: 10px;
+    margin-bottom: 15px; /* Espaço entre os campos */
+    border: 1px solid #ccc; /* Borda simples */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1em;
+    background-color: #fff; /* Fundo branco */
+    transition: border-color 0.3s ease; /* Efeito suave ao interagir */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4CAF50; /* Borda verde quando o campo está em foco */
+    outline: none; /* Remove o contorno padrão */
+}
+
+form textarea {
+    resize: vertical; /* Permite apenas redimensionamento vertical */
+    min-height: 120px; /* Altura mínima para o campo de texto */
+}
+
+form button {
+    background-color: #0ec4d4; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 1.1em;
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave no hover */
+}
+
+form button:hover {
+    background-color: #0ec4d4; /* Muda para verde mais escuro ao passar o mouse */
+}
